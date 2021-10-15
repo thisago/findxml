@@ -1,9 +1,9 @@
 import std/unittest
-import xmlfind
+import findxml
 
 import std/xmltree
 
-suite "xmlfind":
+suite "findxml":
   test "Find All with parameters (single query)":
 
     check msg == say msg

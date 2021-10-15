@@ -1,4 +1,4 @@
-# xmlfind
+# findxml
 
 XML search easy as JS DOM APIs
 
