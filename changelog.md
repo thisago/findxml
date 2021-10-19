@@ -10,6 +10,12 @@
 
 Changes
 
+## Version 0.1.0 (10/19/2021)
+
+- Added `findAll.findAll` with attributes and with multiple queries
+
+---
+
 ## Version 0.0.0 (10/15/2021 16:39:42 Friday)
 
 - init
