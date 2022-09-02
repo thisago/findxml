@@ -15,9 +15,11 @@ func findAll*(node; tagName: string; attrs: openArray[FindAttr];
   ##
   ## querySelector like
   for node in node.findAll(tagName, caseInsensitive):
-    for (key, val) in attrs:
-      if val == node.attr key:
-        result.add node
+    block add:
+      for (key, val) in attrs:
+        if val != node.attr key:
+          break add
+      result.add node
 
 func findAll*(node; sels: openArray[(string, seq[FindAttr])];
               caseInsensitive = false): seq[XmlNode] =

@@ -1,14 +1,10 @@
-<!--
-  Created at: 10/15/2021 16:39:25 Friday
-  Modified at: 10/15/2021 04:39:50 PM Friday
-
-        Copyright (C) 2021 Thiago Ferreira
-  See file "license" for details about copyright
--->
-
 # Changelog
 
-Changes
+## Version 0.1.1 (Sep 2, 2022)
+
+- Fixed `findAll.findAll`
+
+---
 
 ## Version 0.1.0 (10/19/2021)
 
